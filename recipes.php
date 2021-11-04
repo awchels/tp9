@@ -18,6 +18,7 @@ if ($name == "Spam Musubi") {
     include "directions.html";
     
   } else {
+    // reutrn a one if the list did not match any of the above
     echo "1";
     
   }
@@ -49,10 +50,9 @@ if ($name == "Spam Musubi") {
     include "directions3.html";
   
 }
-  
-    
+   
   
 } else {
-  
+  // return a zero since the recipe did not match any of the above
   echo "0";
 }
